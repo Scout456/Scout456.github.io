@@ -1,0 +1,34 @@
+body
+{
+  background-color: cornsilk;
+  background-image: url(https://www.clinicalimagingsystems.com/wp-content/uploads/2018/11/Philips-Ingenia-3.0T-MRI-Scanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 5%;
+  
+}
+
+
+ #container
+ {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-content: flex-start;
+   align-items: flex-start;
+   width: 25%;
+   
+ }
+
+ #head
+ {
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+ .medtronic, .biotronic, .boston, .abbott
+ {
+   color: whitesmoke;
+   background-color: darkblue;
+ }
