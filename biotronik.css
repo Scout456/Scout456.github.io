@@ -1,0 +1,47 @@
+
+#main
+{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  width: 100%;
+
+}
+
+header
+{
+  text-align: center;
+  background-color: darkblue;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: .75em;
+  height: 80px;
+}
+
+img
+{
+  float: right;
+  margin-right: 15px;
+  padding-bottom: 12px;
+}
+
+button
+{
+  background-color: darkblue;
+  color: whitesmoke;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.Manual
+{
+  background-color: red;
+  border: 2px solid lightgrey;
+}
+
+.check
+{
+  background-color: green;
+  border: 2px solid yellow;
+}
