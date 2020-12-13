@@ -22,6 +22,14 @@ img
   float: right;
   margin-right: 15px;
   padding-bottom: 12px;
+  opacity: .35;
+}
+
+img:hover
+{
+  opacity: 1;
+  transition: opacity .5s;
+  transition: delay.1s;
 }
 
 button
@@ -38,13 +46,18 @@ button
 
   {
   color: white;
-  background-color: red;
-  border: 2px solid blue;
+  background-color: blue;
+  border: 2px solid whitesmoke;
 }
 
 .man
 {
   color: white;
+  background-color:blue;
+  border: 2px solid whitesmoke;
+}
+
+button:hover
+{
   background-color: red;
-  border: 2px solid blue;
 }

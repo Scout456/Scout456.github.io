@@ -25,10 +25,31 @@ body
  {
   color: darkblue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+  animation: move 8s infinite;
  }
+
+ @keyframes move
+ {
+   0%
+   {color: darkgray;}
+   33%
+   {color:  green;}
+   66%
+   {color: black;}
+   100%
+   {color: red;}
+ }
+   
+
+ 
  .medtronic, .biotronic, .boston, .abbott
  {
    color: whitesmoke;
    background-color: darkblue;
+   border-radius: 5px;
+ }
+
+ button:hover
+ {
+   background-color: blue;
  }
