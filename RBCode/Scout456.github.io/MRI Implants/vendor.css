@@ -1,0 +1,55 @@
+
+
+
+ #container
+ {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: gray;
+  height: 70;
+   
+ }
+
+ #head
+ {
+  padding-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: move 8s infinite;
+  background-color:gray;
+ }
+
+ @keyframes move
+ {
+   0%
+   {color: yellow;}
+   33%
+   {color: whitesmoke;}
+   66%
+   {color: black;}
+   100%
+   {color: red;}
+ }
+   
+   
+
+ 
+ .medtronic, .biotronic, .boston, .abbott
+ {
+   color: whitesmoke;
+   background-color: darkblue;
+   margin: 25px;
+   border-radius: 5px;
+   height: 30px;
+   
+ }
+
+ button:hover
+ {
+   background-color: blue;
+ }
+
+ 
