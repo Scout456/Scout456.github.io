@@ -1,0 +1,56 @@
+#main {
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	width: 100%;
+}
+
+header {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.5em;
+	height: 80px;
+}
+
+img {
+	float: right;
+	margin-right: 15px;
+	padding-bottom: 12px;
+	opacity: 0.35;
+}
+
+img:hover {
+	opacity: 1;
+	transition: opacity 0.5s;
+	transition: delay.1s;
+}
+
+button {
+	background-color: blue;
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+button:hover {
+	background-color: lightgray;
+}
+
+.man {
+	background-color: whitesmoke;
+}
+
+.search {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.ready {
+	background-color: whitesmoke;
+	border: 2px solid black;
+}
